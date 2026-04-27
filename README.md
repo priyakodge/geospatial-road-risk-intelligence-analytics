@@ -116,7 +116,7 @@ Business questions were defined across three stakeholder audiences **before any 
 ### Risk Score Design
 
 The composite Risk Score addresses a fundamental challenge in road asset management — a road with high defect volume is not necessarily more urgent than one with fewer but structurally severe defects. The model normalises four metrics against their network maximums, ensuring each dimension contributes equally regardless of scale.
----
+
 Risk Score =
   (PCI Risk normalised / 17.38) × 100
 + (% Critical Segs / 5.73) × 100
