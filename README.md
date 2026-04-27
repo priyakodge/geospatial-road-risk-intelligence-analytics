@@ -76,7 +76,7 @@ DAX Measures & Risk Score Model
 
 ### Data Model
 
----
+```
 Pci_Segment_Data (1,863 rows)        Pavement_Distress_Data (19,279 rows)
 ─────────────────────────────        ────────────────────────────────────
 Inspect_ID (PK) ────────────────────► Inspect_ID (FK)
@@ -88,8 +88,8 @@ Length_M / Area_SqM                   Defect_Length_M
 
 Relationship: One-to-Many
 Cross-filter direction: Both
+```
 ---
-
 ### Network Summary
 
 - **5 roads** inspected across Queensland urban network
