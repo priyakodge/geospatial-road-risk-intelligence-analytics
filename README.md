@@ -1,8 +1,4 @@
-# 🛣️ Road Asset Risk Intelligence — Geospatial Analytics Pipeline
-### LiDAR Inspection · ArcGIS/PostGIS Processing · Power BI Risk Reporting · Queensland Local Government
----
-
-> **The problem:** A Queensland local government council had 16.76km of roads, 1,863 inspected segments, 19,279 recorded defects — and a limited capital works budget. The question was never *"what is broken."* It was *"what do we fix first, and why."*
+# Geos[atial-Road-Risk-Intelligence-Analytics
 
 ---
 
