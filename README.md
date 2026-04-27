@@ -1,4 +1,4 @@
-# 🛣️Geospatial Analytics PipelineGeospatial-Road-Risk-Intelligence-Analytics
+# 🛣️ Geospatial-Road-Risk-Intelligence-Analytics
 
 ---
 
