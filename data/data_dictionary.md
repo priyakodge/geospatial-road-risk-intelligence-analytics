@@ -83,8 +83,5 @@ Cardinality: One-to-Many
 Cross-filter: Both directions
 ```
 
-One segment can have multiple defect records. The relationship enables slicers on either table to filter across the entire data model.
 
----
 
-*Data Dictionary prepared by Ryan Watson Consulting Pty Ltd · © 2024 All rights reserved*
