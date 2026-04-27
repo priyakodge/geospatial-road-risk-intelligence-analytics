@@ -6,7 +6,7 @@
 
 Delivered an end-to-end geospatial analytics solution for a Queensland local government council — from LiDAR point cloud survey data through spatial database processing to a three-page interactive Power BI risk intelligence report. The solution analyses road condition and defect data across a 16.76km urban road network, producing a composite Risk Score model that objectively ranks maintenance urgency across five roads. The output enables infrastructure asset managers to direct limited capital works budget toward highest-risk roads using evidence, not assumption.
 
-**Every metric calculates dynamically from 19,279 raw inspection records.**
+**Every metric calculates dynamically from raw inspection data.**
 
 ---
 
