@@ -86,16 +86,6 @@ Relationship: One-to-Many
 Cross-filter direction: Both
 ```
 ---
-### Network Summary
-
-- **5 roads** inspected across Queensland urban network
-- **16.76 km** total network length
-- **1,863 segments** assessed
-- **19,279 defects** recorded across 13 distress types
-- **180 high severity defects** requiring urgent intervention
-- **142 high severity crocodile cracking instances** — confirmed structural base failure
-
----
 
 ## Methodology
 
