@@ -259,7 +259,7 @@ No structural risk indicators present. A light preventive treatment preserves cu
 
 ## Repository Structure
 
----
+```
 geospatial-road-risk-intelligence-analytics/
 │
 ├── README.md
@@ -277,7 +277,7 @@ geospatial-road-risk-intelligence-analytics/
     ├── data_dictionary.md
     ├── data_privacy_notice.md
     └── sample_data_structure.csv
----
+```
 
 ---
 
