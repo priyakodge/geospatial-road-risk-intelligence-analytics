@@ -1,6 +1,5 @@
 # Data Dictionary
 ## Geospatial Road Risk Intelligence Analytics
-### Ryan Watson Consulting Pty Ltd · Queensland Local Government · Nov 2024
 
 ---
 
