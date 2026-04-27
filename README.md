@@ -270,7 +270,7 @@ geospatial-road-risk-intelligence-analytics/
 ## Data Confidentiality
 
 > ⚠️ **Data Privacy Notice**
->Sample data was formally requested from the re;evant council authorities under a consulting engagement with Ryan Watson Consulting Pty Ltd. Raw inspection data cannot be publicly disclosed in accordance with council data governance requirements. A data dictionary and sample structure file are provided for reference. 
+> Sample data was formally requested from the relevant council authorities under a consulting engagement with Ryan Watson Consulting Pty Ltd. Raw inspection data cannot be publicly disclosed in accordance with council data governance requirements. A data dictionary and sample structure file are provided for reference. 
 
 ---
 
@@ -301,11 +301,9 @@ geospatial-road-risk-intelligence-analytics/
 
 ## About
 
-**Analyst:** Basavapriya (Priya)
+**Analyst:** Basavapriya (Priya Kodge)
 **Organisation:** Ryan Watson Consulting Pty Ltd
 **Client:** Queensland Local Government Council
-**Survey date:** November 2024
-**Delivery:** April 2026
 
 *Portfolio project demonstrating end-to-end geospatial analytics capability for Australian local government infrastructure asset management.*
 
