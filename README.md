@@ -40,7 +40,7 @@ Deliver an interactive analytics solution that:
 
 ## Data Pipeline — End to End
 
----
+```
 LiDAR Point Cloud Survey
         │
         ▼
@@ -65,7 +65,7 @@ DAX Measures & Risk Score Model
         ▼
 3-Page Interactive Report
 (Executive · Engineer · Asset Manager)
----
+```
 
 ### Source Data
 
@@ -127,7 +127,7 @@ Risk Score =
 
 ### DAX Implementation
 
---- dax
+```dax
 RISK_SCORE = 
 
 VAR pci_inv = 100 - AVERAGE(PCI_Segment_Data[PCI_Score])
@@ -164,7 +164,8 @@ VAR norm_croc = DIVIDE(pct_croc, 100, 0) * 100
 
 RETURN
 ROUND((norm_pci + norm_crit + norm_high + norm_croc) / 4, 1)
-
+```
+---
 ## Data Cleaning & Preparation
 
 All transformation performed in Power Query — reproducible and documented:
