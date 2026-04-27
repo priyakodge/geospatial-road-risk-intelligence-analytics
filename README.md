@@ -40,7 +40,7 @@ Deliver an interactive analytics solution that:
 
 ## Data Pipeline — End to End
 
-```
+---
 LiDAR Point Cloud Survey
         │
         ▼
@@ -65,7 +65,7 @@ DAX Measures & Risk Score Model
         ▼
 3-Page Interactive Report
 (Executive · Engineer · Asset Manager)
-```
+---
 
 ### Source Data
 
@@ -76,7 +76,7 @@ DAX Measures & Risk Score Model
 
 ### Data Model
 
-```
+---
 Pci_Segment_Data (1,863 rows)        Pavement_Distress_Data (19,279 rows)
 ─────────────────────────────        ────────────────────────────────────
 Inspect_ID (PK) ────────────────────► Inspect_ID (FK)
@@ -88,7 +88,7 @@ Length_M / Area_SqM                   Defect_Length_M
 
 Relationship: One-to-Many
 Cross-filter direction: Both
-```
+---
 
 ### Network Summary
 
@@ -116,18 +116,18 @@ Business questions were defined across three stakeholder audiences **before any 
 ### Risk Score Design
 
 The composite Risk Score addresses a fundamental challenge in road asset management — a road with high defect volume is not necessarily more urgent than one with fewer but structurally severe defects. The model normalises four metrics against their network maximums, ensuring each dimension contributes equally regardless of scale.
-```
+---
 Risk Score =
   (PCI Risk normalised / 17.38) × 100
 + (% Critical Segs / 5.73) × 100
 + (% High Sev Defects / 1.9417) × 100
 + (% Croc Cracking High / 100) × 100
 ÷ 4
-```
+---
 
 ### DAX Implementation
 
-```dax
+--- dax
 RISK_SCORE = 
 
 VAR pci_inv = 100 - AVERAGE(PCI_Segment_Data[PCI_Score])
@@ -258,7 +258,7 @@ No structural risk indicators present. A light preventive treatment preserves cu
 
 ## Repository Structure
 
-```
+---
 geospatial-road-risk-intelligence-analytics/
 │
 ├── README.md
@@ -276,7 +276,7 @@ geospatial-road-risk-intelligence-analytics/
     ├── data_dictionary.md
     ├── data_privacy_notice.md
     └── sample_data_structure.csv
-```
+---
 
 ---
 
